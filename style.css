@@ -1,0 +1,101 @@
+
+
+
+body{
+	background: gray;
+	font-family: copperplate;
+	background-size: cover;
+
+}
+
+header{
+	color: gray;
+	background: white;
+	width: 75%;
+	margin: 0 auto;
+	font-size: 75%;
+	padding: 1%;
+
+}
+
+div{
+
+	width: 75%;
+	margin: 0 auto;
+	padding: 30px;
+	display: flex;
+
+}
+button{
+	width: 75px;
+	background: none;
+	border: 3px solid white;
+	color: white;
+	border-radius: 3px;
+	margin: 5px;
+	flex: 1;
+	padding: 25px;
+	font-size: 75px;
+	
+
+}
+button:hover{
+	background: red;
+}
+
+button:focus{
+	outline: none;
+}
+
+p{
+	text-align: center;
+	font-size: 50px;
+	width: 100%
+}
+
+.results {
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+	font-size: 100px;
+	border: 1px solid white;
+}
+
+
+.score{
+	text-align: center;
+	background: none;
+	border: 3px solid white;
+	color: white;
+	border-radius: 3px;
+	margin: 5px;
+	display: flex;
+	padding: 25px;
+	font-size: 75px;
+}
+.total{
+	width: 75px;
+	background: none;
+	margin: 5px;
+	flex: 2;
+	padding: 25px;
+	font-size: 75px;
+	
+	
+}
+
+#winner{
+	font-size: 150px;
+	color: black;
+}
+
+#pm{
+	font-size: 150px;
+	color: lime;
+}
+
+#comp{
+	font-size: 150px;
+	color:yellow;
+}
+
